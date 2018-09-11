@@ -46,8 +46,8 @@ rpt_date_less_7<-report_date-7
 # DO NOT SHARE TOKEN !!!!!!!!!!!!
 # export records from the Screening project
 rcon <- redcapConnection(
-  url   = "https://redcap.ccr-ari.id/api/",
-  token = "23B3401F6AB67F37E97D4EC97D02F805"
+  url   = "https://****/api/",
+  token = "**************************"
 )
 # read all records
 s_data<-exportRecords(rcon)
